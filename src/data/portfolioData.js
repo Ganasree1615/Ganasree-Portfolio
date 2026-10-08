@@ -11,8 +11,8 @@ export const personalInfo = {
   location: "India",
   phone: "+91 99999999",
   emails: {
-    primary: "your-email@example.com",
-    secondary: "your-email@example.com",
+    primary: "ganasreeajay@gmail.com",
+    secondary: "ganasreeajay@gmail.com",
   },
   summary:
     "Motivated software developer with hands-on experience building scalable web applications using React, Node.js, and modern backend technologies. Strong foundation in API development, system design, and problem solving.",
@@ -20,9 +20,9 @@ export const personalInfo = {
 };
 
 export const socialLinks = {
-  github: "https://github.com/YOUR-USERNAME",
+  github: "https://github.com/Ganasree1615",
   linkedin: "https://www.linkedin.com/in/YOUR-PROFILE",
-  instagram: "https://www.instagram.com/YOUR-HANDLE",
+  leetcode: "https://leetcode.com/u/YOUR-USERNAME/",
 };
 
 export const heroContent = {
@@ -33,7 +33,7 @@ export const heroContent = {
   ctaPrimary: { text: "View My Work", href: "#projects" },
   ctaSecondary: {
     text: "Contact Me",
-    href: "mailto:your-email@example.com?subject=Hiring Inquiry – Portfolio&body=Hello Ganasree,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
+    href: "mailto:ganasreeajay@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Ganasree,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,",
   },
   ctaResume: { text: "Download Resume", href: "/Ganasree_Resume_2026.pdf" },
 };
@@ -289,7 +289,7 @@ export const certificates = {
       icon: "🗄️",
     },
   ],
-  viewAllUrl: "mailto:your-email@example.com?subject=Certificate%20Request",
+  viewAllUrl: "mailto:ganasreeajay@gmail.com?subject=Certificate%20Request",
 };
 
 export const education = {

@@ -20,7 +20,7 @@ const Navbar = () => {
 
   const navLinks = ['Home', 'About', 'Skills', 'Projects', 'Education', 'Contact'];
 
-  const hireMeMailto = `mailto:your-email@example.com?subject=Hiring Inquiry – Portfolio&body=Hello Ganasree,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
+  const hireMeMailto = `mailto:ganasreeajay@gmail.com?subject=Hiring Inquiry – Portfolio&body=Hello Ganasree,%0D%0A%0D%0AI came across your portfolio and would like to discuss an opportunity with you.%0D%0A%0D%0ALooking forward to hearing from you.%0D%0ABest Regards,`;
 
   return (
     <nav 
