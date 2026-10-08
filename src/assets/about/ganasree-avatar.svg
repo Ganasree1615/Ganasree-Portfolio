@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400" role="img" aria-label="Ganasree standing and waving hello">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a2a2f"/>
+      <stop offset="1" stop-color="#0f0f12"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="300" height="400" fill="url(#bg)"/>
+  <circle cx="150" cy="215" r="125" fill="#a5d8ff" opacity="0.9"/>
+  <path d="M40 60l5 14 14 5-14 5-5 14-5-14-14-5 14-5z" fill="#fff" opacity="0.35"/>
+  <path d="M262 300l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#fff" opacity="0.35"/>
+
+  <!-- Ground shadow -->
+  <ellipse cx="150" cy="372" rx="62" ry="8" fill="#000" opacity="0.35"/>
+
+  <!-- Back hair -->
+  <path d="M119 102 Q117 58 150 57 Q183 58 181 102 L190 170 Q150 184 110 170 Z" fill="#1a1417"/>
+
+  <!-- Legs -->
+  <path d="M120 240 L148 240 L146 358 L124 358 Z" fill="#3b4252"/>
+  <path d="M152 240 L180 240 L176 358 L154 358 Z" fill="#3b4252"/>
+  <!-- Shoes -->
+  <path d="M120 358 H149 V368 Q149 372 144 372 H116 Q114 366 120 358Z" fill="#fff"/>
+  <path d="M151 358 H180 Q186 366 184 372 H156 Q151 372 151 368Z" fill="#fff"/>
+
+  <!-- Torso: blazer -->
+  <path d="M110 160 Q150 142 190 160 L196 250 L104 250 Z" fill="#fff"/>
+  <path d="M108 160 Q130 150 143 152 L150 215 L128 250 L104 250 Z" fill="#111"/>
+  <path d="M192 160 Q170 150 157 152 L150 215 L172 250 L196 250 Z" fill="#111"/>
+  <path d="M143 152 L150 175 L157 152 Z" fill="#a5d8ff"/>
+  <!-- Belt -->
+  <rect x="104" y="238" width="92" height="9" fill="#a5d8ff"/>
+
+  <!-- Neck -->
+  <rect x="142" y="128" width="16" height="26" rx="6" fill="#e9b88a"/>
+
+  <!-- Left arm (hand on hip) -->
+  <path d="M112 163 L96 208 L120 240" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="122" cy="241" r="8" fill="#e9b88a"/>
+
+  <!-- Right arm (waving hello) -->
+  <path d="M188 163 L220 196 L226 146" fill="none" stroke="#111" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="226" cy="132" r="11" fill="#e9b88a"/>
+  <g stroke="#e9b88a" stroke-width="4" stroke-linecap="round">
+    <line x1="218" y1="124" x2="215" y2="112"/>
+    <line x1="223" y1="121" x2="222" y2="108"/>
+    <line x1="229" y1="121" x2="231" y2="108"/>
+    <line x1="234" y1="124" x2="239" y2="113"/>
+  </g>
+  <!-- Wave motion marks -->
+  <g stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.85">
+    <path d="M248 118 Q256 132 248 146"/>
+    <path d="M258 110 Q270 132 258 154"/>
+  </g>
+
+  <!-- Head -->
+  <ellipse cx="150" cy="106" rx="27" ry="31" fill="#f1c9a0"/>
+  <!-- Fringe -->
+  <path d="M121 100 Q126 70 150 69 Q174 70 179 100 Q166 84 148 84 Q132 86 121 100Z" fill="#1a1417"/>
+  <!-- Face -->
+  <circle cx="140" cy="108" r="2.6" fill="#1a1417"/>
+  <circle cx="160" cy="108" r="2.6" fill="#1a1417"/>
+  <path d="M137 101 Q140 98 144 100" stroke="#1a1417" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <path d="M156 100 Q160 98 163 101" stroke="#1a1417" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+  <circle cx="133" cy="118" r="5" fill="#7dd3fc" opacity="0.45"/>
+  <circle cx="167" cy="118" r="5" fill="#7dd3fc" opacity="0.45"/>
+  <path d="M141 120 Q150 130 159 120" stroke="#b3262a" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+  <!-- Bindi -->
+  <circle cx="150" cy="92" r="2" fill="#a5d8ff"/>
+  <!-- Earrings -->
+  <circle cx="123" cy="116" r="3" fill="#a5d8ff"/>
+  <circle cx="177" cy="116" r="3" fill="#a5d8ff"/>
+
+  <!-- Speech bubble -->
+  <rect x="12" y="16" width="168" height="40" rx="14" fill="#fff"/>
+  <path d="M118 55 L130 72 L142 55 Z" fill="#fff"/>
+  <text x="96" y="42" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="15" font-weight="800" fill="#111">Hi, I'm Ganasree!</text>
+</svg>
