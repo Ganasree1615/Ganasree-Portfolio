@@ -41,7 +41,7 @@ export const heroContent = {
 export const aboutContent = {
   heading: "Hello!",
   bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Ganasree</span>, a software developer focused on building responsive, reliable, and scalable web experiences with strong attention to product quality and clean architecture.`,
-  techStack: ["React", "Node.js", "Java", "Python"],
+  techStack: ["Go", "Node.js", "Java", "Python"],
 };
 
 export const skillsContent = {

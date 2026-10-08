@@ -24,22 +24,21 @@ const PythonIcon = () => (
   </div>
 );
 
-const MernIcon = () => (
+const GoIcon = () => (
   <div className="flex flex-col items-center gap-2">
-    <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128">
-      {/* Central React Atom */}
-      <g stroke="#00d8ff" strokeWidth="4.5" fill="none" transform="translate(10, 10)">
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(30 54 54)" />
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(90 54 54)" />
-        <ellipse cx="54" cy="54" rx="16" ry="46" transform="rotate(150 54 54)" />
-        <circle cx="54" cy="54" r="7" fill="#00d8ff" />
+    <svg className="w-16 h-16 md:w-20 md:h-20" viewBox="0 0 128 128" fill="none" stroke="#00ADD8" strokeLinecap="round" strokeLinejoin="round">
+      {/* Speed lines */}
+      <g strokeWidth="6">
+        <path d="M12 52H26" />
+        <path d="M4 64H26" />
+        <path d="M12 76H26" />
       </g>
-      {/* MongoDB Leaf overlap overlay in bottom left */}
-      <path fill="#439934" d="M36 84c-3-6-4-15 0-22 3 7 9 10 10 15 2 1.5 1 3-2 5l-8 2zm4-25c2 4 4 11 0 16-1-5-6-8-7-12-2-1-1-3 2-4l5 0z" opacity="0.9" />
-      {/* Node.js Hexagon in top right */}
-      <path fill="#339933" d="M98 32l-12-7-12 7v14l12 7 12-7V32zm-12 1.5l8 4.6v9.3l-8 4.6-8-4.6v-9.3l8-4.6z" opacity="0.9" />
+      {/* G */}
+      <path strokeWidth="9" d="M66 52A18 18 0 1 0 68 66H52" />
+      {/* O */}
+      <circle strokeWidth="9" cx="96" cy="64" r="16" />
     </svg>
-    <span className="text-xs font-bold text-slate-900/70 uppercase tracking-wider">MERN Stack</span>
+    <span className="text-xs font-bold text-slate-900/70 uppercase tracking-wider">Go</span>
   </div>
 );
 
@@ -94,7 +93,7 @@ const About = () => {
               <PythonIcon />
             </div>
             <div data-aos="zoom-in" data-aos-delay="600" className="hover:scale-110 transition-transform duration-300 cursor-pointer drop-shadow-2xl">
-              <MernIcon />
+              <GoIcon />
             </div>
           </div>
 
